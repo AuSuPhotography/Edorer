@@ -1957,7 +1957,7 @@ button:focus:not(:focus-visible) {
         margin-bottom: 60px;
     }
     .digital-enthusiasts-tabs {
-        margin: 0 30px;
+        margin: 0 22px;
     }
     .digital-enthusiasts-tabs>ul {
         float: left;
@@ -2651,7 +2651,7 @@ button:focus:not(:focus-visible) {
         }
         .analize {
             padding-top: 6vh;
-            padding-bottom: 3vh;
+            padding-bottom: 0vh;
         }
         .analize > .row{
             width: 100% !important;
@@ -2706,13 +2706,13 @@ button:focus:not(:focus-visible) {
         }
         .customer{
             position: relative;
-            height: 1000px;
+            height: 950px;
         }
         .card-carousal{
             height: 600px;
             background-image: none;
             position: absolute;
-            top: 50%;
+            top: 48%;
         }
         .company-grid{
             padding-top: 50px;
@@ -3224,10 +3224,11 @@ button:focus:not(:focus-visible) {
            .accordian-card>.para {
                position: relative;
                top: -30px;
-               
+               margin: 0px;
            }
            .accordian-card>.para p{
                 line-height: 19px !important;
+                margin: 0px;
             }
            .digital-enthusiasts-body {
                width: 100% !important;

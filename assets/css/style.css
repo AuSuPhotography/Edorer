@@ -849,7 +849,7 @@ button:focus:not(:focus-visible) {
        padding: 0px;
        height: 100vh;
        margin: 90px 0px 0px 0px;
-       background-image: url("./assets/img/grid.png");
+       background-image: url("../img/grid.png");
        background-size: cover;
        background-position: fixed;
        background-repeat: no-repeat;

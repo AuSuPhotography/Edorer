@@ -2710,13 +2710,13 @@ button:focus:not(:focus-visible) {
         }
         .customer{
             position: relative;
-            height: 950px;
+            height: 890px;
         }
         .card-carousal{
             height: 600px;
             background-image: none;
             position: absolute;
-            top: 48%;
+            top: 45%;
         }
         .company-grid{
             padding-top: 50px;
@@ -2911,7 +2911,7 @@ button:focus:not(:focus-visible) {
            }
            .customer{
             position: relative;
-            height: 1000px;
+            height: 950px;
             width: 100% !important;
             margin: 0px;
         }

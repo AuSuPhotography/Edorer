@@ -1170,7 +1170,11 @@ button:focus:not(:focus-visible) {
        color: #FFFFFF;
        text-decoration: none;
        margin-right: 25px;
+<<<<<<< HEAD
        display: flex;
+=======
+       display:flex;
+>>>>>>> a6c1bb24fbd2932dcc1752099c62b79f7f22b47a
    }
    
    .banner-list > ul > li > span > img{

@@ -666,8 +666,7 @@ button:focus:not(:focus-visible) {
    }
    
    .celeb-icon {
-       /* background: url(Images/SpriteSheet.png) no-repeat -83px -8px; */
-       background: url(../img/864763\ 1@2x.svg) no-repeat;
+       background: url(../img/Partypoper.svg) no-repeat;
        height: 24px;
        width: 24px;
        float: right;
@@ -1658,12 +1657,20 @@ button:focus:not(:focus-visible) {
        color: rgba(231, 72, 72, 0.8);
        text-transform: capitalize;
      }
-    @media only screen and (max-width: 43rem) {
+    
+    @media only screen and (max-width: 43rem){
        .heading__h1 {
          font-size: 3rem;
        }
-     }
+    }
    
+    .card-carousal{
+        background-image: url(/assets/img/red_dotted_design.svg);
+        background-size: 35%;
+        background-repeat: no-repeat;
+        background-position-x: 150px;
+        background-position-y: 55px;
+    }
    .card-carousal-text{
        margin-top: 33px;
        padding-right: 24px;
@@ -1765,7 +1772,6 @@ button:focus:not(:focus-visible) {
         top: 2px;
     }
     .new-box {
-        /* / width: 438px; / */
         width: 285px;
         height: auto;
     }
@@ -2643,7 +2649,11 @@ button:focus:not(:focus-visible) {
         .graph-img > img{
             width: 75vw;
         }
-    
+        
+        .relation-img{
+            display: flex;
+            justify-content: center;
+        }
         .relation-img > img{
             width: 500px;
             height: 420px;
@@ -3171,7 +3181,7 @@ button:focus:not(:focus-visible) {
                height: 254px;
            }
            .accordian-card {
-               height: 450px;
+               height: auto;
            }
            .accordian-card > .heading > h6{
                display: inline;

@@ -1170,11 +1170,7 @@ button:focus:not(:focus-visible) {
        color: #FFFFFF;
        text-decoration: none;
        margin-right: 25px;
-<<<<<<< HEAD
        display: flex;
-=======
-       display:flex;
->>>>>>> a6c1bb24fbd2932dcc1752099c62b79f7f22b47a
    }
    
    .banner-list > ul > li > span > img{
@@ -1944,9 +1940,6 @@ button:focus:not(:focus-visible) {
         text-align: center;
         width: 610px;
     }
-    .img-main {
-        /* position: absolute; */
-    }
     .dot-img {
         position: absolute;
         right: 0px;
@@ -1961,7 +1954,10 @@ button:focus:not(:focus-visible) {
         margin-bottom: 60px;
     }
     .digital-enthusiasts-tabs {
-        margin: 0 22px;
+        margin: 0px;
+        margin-left: 30px;
+        padding-left: 14px;
+        width: 97%;
     }
     .digital-enthusiasts-tabs>ul {
         float: left;
@@ -2219,7 +2215,7 @@ button:focus:not(:focus-visible) {
 }
 }
    
-    @media only screen and (max-width:700px){
+@media only screen and (max-width:700px){
        .card-carousal{
            height: 500px;
        }
@@ -3285,7 +3281,7 @@ button:focus:not(:focus-visible) {
                text-transform: uppercase;
                text-align: right;
            }
-   }
+   } 
 
    @media (min-width:410px) and (max-width:640px){
        .form-bg{
@@ -3402,6 +3398,43 @@ button:focus:not(:focus-visible) {
        .icon-grid>li>img{
            width: 44px;
        }
+   }
+   @media (min-width:1024px) and (max-width:1030px){
+        .intro-container{
+            width: 100% !important;
+            margin: 0px !important;
+            padding-right: 20px !important;
+        }
+        .new-box{
+            width: 85%;
+        }
+        .form-bg{
+            width: 100% !important;
+        }
+        .image-left{
+            left: 0px;
+        }
+        .img-main{
+            width: 100%;
+        }
+        .graph-container > .row > .align-center{
+            width: 100%;
+            align-items: center;
+        }
+        .accordian-list{
+            width: 90%;
+        }
+        .accordian-card{
+            width: 100%;
+        }
+        .image-container-window{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        #timeline-1, #timeline-2, #timeline-3{
+            margin-left: 25px;
+        }
    }
 
    /* effects */

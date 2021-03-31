@@ -957,6 +957,7 @@ button:focus:not(:focus-visible) {
    
    .digital-enthusiasts-heading{
        margin-bottom: 30px;
+       padding-top: 25px;
    }
    
    .digital-enthusiasts-heading >.show-in-center > h2{

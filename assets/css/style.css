@@ -1966,6 +1966,9 @@ button:focus:not(:focus-visible) {
     .accordian-card-height {
         height: 133px !important;
     }
+    .accordian-card>.heading, .accordian-card>.para{
+        padding: 0px !important;
+    }
     .graph-img-card img {
         width: 420px;
     }

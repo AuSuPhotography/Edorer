@@ -1850,7 +1850,7 @@ button:focus:not(:focus-visible) {
         margin-top: 60px;
     }
     .order-form-reverse{
-        padding-right: 15px;
+        padding-right: 30px;
     }
     .new-box {
         width: 285px;

@@ -3413,7 +3413,7 @@ button:focus:not(:focus-visible) {
     }
     @media (max-width: 1280px){
         .top-bg{
-            background-size: 850px;
+            background-size: 820px;
         }
         .main-heading>h1{
             font-size: 47px;
@@ -3422,7 +3422,7 @@ button:focus:not(:focus-visible) {
         .digital-enthusiasts-tabs>ul{
             width: 90%;
             margin: 0px;
-            margin-left: 120px;
+            margin-left: 140px;
         }
         .digital-enthusiasts-tabs>ul>li{
             width: 14vw;

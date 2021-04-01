@@ -1850,7 +1850,7 @@ button:focus:not(:focus-visible) {
         margin-top: 60px;
     }
     .order-form-reverse{
-        padding-right: 30px;
+        padding-right: 15px;
     }
     .new-box {
         width: 285px;
@@ -2164,7 +2164,7 @@ button:focus:not(:focus-visible) {
         padding-left: 30px;
     }
     .footer-bottom>.row {
-        width: 98vw;
+        width: 100vw;
     }
     #footer .footer-bottom {
         left: 0px;
@@ -2319,7 +2319,7 @@ button:focus:not(:focus-visible) {
     }
     .social-media{
         position: relative;
-        right: -260px;
+        right: -230px;
     }
     .enthusiasts-heading> h2{
         width: 668px !important;

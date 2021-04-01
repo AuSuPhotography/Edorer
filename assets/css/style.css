@@ -1884,15 +1884,15 @@ button:focus:not(:focus-visible) {
     .intro-container {
         width: 323px;
         margin-top: 30px;
-        padding-right: 30px !important;
+        padding-right: 0px !important;
     }
     .intro-container h1 {
-        font-size: 26px;
+        font-size: 34px;
         line-height: 31px;
     }
     .intro-container p {
         width: 100%;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.001em;
         margin-bottom: 40px;
@@ -3535,6 +3535,10 @@ button:focus:not(:focus-visible) {
         .top-bg{
             background-size: 820px;
         }
+        .main-1{
+            margin: 0 60px;
+            padding: 0px;
+        }
         .main-heading>h1{
             font-size: 47px;
             line-height: 60px;
@@ -3588,7 +3592,7 @@ button:focus:not(:focus-visible) {
             width: 550px !important;
         }
         .footer-container{
-            margin-left: 80px;
+            margin-left: 60px;
         }
         #footer .footer-top .footer-links:nth-child(2){
             margin-left: 30px;
@@ -3599,11 +3603,14 @@ button:focus:not(:focus-visible) {
             margin-right: 30px;
             width: 18%;
         }
+        #footerEmailInput{
+            width: 70%;
+        }
         .email-heading{
             margin-top: 0px;
         }
         .copyright{
-            padding-left: 140px;
+            padding-left: 120px;
         }
         .social-media{
             padding-right: 15px !important;

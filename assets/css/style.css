@@ -1824,6 +1824,10 @@ button:focus:not(:focus-visible) {
         line-height: 41px !important;
         letter-spacing: 0.0025em !important;
     }
+    .logo-container{
+        position: relative;
+        top: 8px;
+    }
     .top-bg {
         background-size: 370px;
     }

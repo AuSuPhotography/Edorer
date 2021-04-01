@@ -75,7 +75,7 @@ function addAccordian(){
       };
       document.getElementById(`timeline-${lastEleForDiv.c}`).style.display = 'block';
 
-      if(window.screen.availWidth >= 768 && window.screen.availWidth < 1366){
+      if(window.screen.availWidth >= 768 && window.screen.availWidth < 1279){
         document.getElementById(`graph${lastEleForDiv.c}`).style.display = 'flex';
       }
     }
@@ -94,7 +94,7 @@ function addAccordian(){
         document.getElementById(`timeline-${lastEleForDiv.c}`).style.display = 'none';
         document.getElementById(`timeline-${num}`).style.display = 'block';
 
-        if(window.screen.availWidth >= 768 && window.screen.availWidth <= 1366){
+        if(window.screen.availWidth >= 768 && window.screen.availWidth <= 1279){
           document.getElementById(`graph${lastEleForDiv.c}`).style.display = 'none';
           document.getElementById(`graph${num}`).style.display = 'flex';
         }

@@ -3471,16 +3471,22 @@ button:focus:not(:focus-visible) {
             margin-left: 80px;
         }
         #footer .footer-top .footer-links:nth-child(2){
-            margin-left: 40px;
+            margin-left: 30px;
             width: 18%;
         }
         #footer .footer-top .footer-links:nth-child(3){
-            margin-left: 40px;
-            margin-right: 50px;
+            margin-left: 30px;
+            margin-right: 30px;
             width: 18%;
+        }
+        .email-heading{
+            margin-top: 0px;
         }
         .copyright{
             padding-left: 140px;
+        }
+        .social-media{
+            padding-right: 15px !important;
         }
     }
     @media (max-width: 1400px){

@@ -1813,9 +1813,9 @@ button:focus:not(:focus-visible) {
    
    /* Tablet View */
     @media (min-width:768px) and (max-width:1024px){
-       .img-card{
-           width: 100%;;
-       }
+    .img-card{
+       width: 100%;;
+    }
     .no-margin{
         margin: 0px !important;
     }
@@ -1825,7 +1825,7 @@ button:focus:not(:focus-visible) {
         letter-spacing: 0.0025em !important;
     }
     .top-bg {
-        background-size: 504px;
+        background-size: 370px;
     }
     .header {
         margin: 37px 30px 50px 30px;
@@ -1882,20 +1882,23 @@ button:focus:not(:focus-visible) {
         font-weight: 400 !important;
     }
     .intro-container {
-        width: 323px;
+        width: 373px;
         margin-top: 30px;
         padding-right: 0px !important;
     }
     .intro-container h1 {
         font-size: 34px;
-        line-height: 31px;
+        line-height: 41px;
     }
     .intro-container p {
-        width: 100%;
+        width: 332px;
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.001em;
         margin-bottom: 40px;
+    }
+    .btn-container{
+        width: 323px;
     }
     .btn-container a {
         width: 100%;
@@ -1904,7 +1907,7 @@ button:focus:not(:focus-visible) {
         margin-top: 16px;
     }
     .form-bg {
-        width: 379px;
+        width: 300px;
         height: auto;
     }
     .form-upper-container {

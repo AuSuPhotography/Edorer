@@ -3461,7 +3461,7 @@ button:focus:not(:focus-visible) {
         .container-sm,
         .container-xl,
         .container-xxl {
-            max-width: 1500px;
+            max-width: 1370px;
         }
         .banner{
             width: 80%;

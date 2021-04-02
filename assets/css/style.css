@@ -1369,6 +1369,10 @@ button:focus:not(:focus-visible) {
    #footerEmailInputLable{
        display: inline;
    }
+   #footerEmailInputLable2{
+       display: none;
+       color: rgba(25, 7, 28, 0.3);
+   }
    
    #footer .footer-newsletter {
        padding: 50px 0;
@@ -3302,6 +3306,10 @@ button:focus:not(:focus-visible) {
            }
            #footerEmailInputLable{
                font-size: 10px;
+               display: none;
+           }
+           #footerEmailInputLable2{
+               display: block;
            }
            .supported-by-mob {
                display: block;

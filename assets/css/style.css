@@ -551,7 +551,7 @@ button:focus:not(:focus-visible) {
     cursor: pointer;
   }
 
-.row{
+    .row{
     padding: 0px;       
    }
    
@@ -583,6 +583,7 @@ button:focus:not(:focus-visible) {
    
    .nav ul {
        float: left;
+       margin-top: 0px;
    }
    
    .nav ul li {
@@ -625,9 +626,13 @@ button:focus:not(:focus-visible) {
        color: #FFFFFF;
    }
    
-   .btn-whiter-border:hover, .btn-border:hover{
+   .btn-border:hover{
        box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.22);
-       color:  black i !important;
+       color:  black !important;
+   }
+   .btn-whiter-border:hover{
+        box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.22);
+        color:  white !important;
    }
    
    .btn-border {
@@ -1045,7 +1050,7 @@ button:focus:not(:focus-visible) {
    }
    
    .tab-card-heading{
-       padding: 2vw 0px 1vw 0px;
+       padding: 30px 0px 1vw 0px;
    }
    .tab-card-heading:hover{
        transition-timing-function: ease;
@@ -1080,7 +1085,7 @@ button:focus:not(:focus-visible) {
    }
    
    .digital-enthusiasts-body{
-       margin-bottom: 70px;
+       margin-bottom: 80px;
    }
    
    .analize{
@@ -1351,7 +1356,7 @@ button:focus:not(:focus-visible) {
    }
    
    .footer-container{
-       margin-left: 136px;
+       padding-left: 135px;
    }
    
    #footerEmailInput{
@@ -1462,6 +1467,7 @@ button:focus:not(:focus-visible) {
    
    #footer .footer-top .footer-contact {
        margin-bottom: 30px;
+       width: 20%;
    }
    
    #footer .footer-top .footer-contact span {
@@ -1509,11 +1515,11 @@ button:focus:not(:focus-visible) {
    }
    
    #footer .footer-top .footer-links:nth-child(2) {
-       margin-left: 90px;
+       margin-left: 80px;
    }
    
    #footer .footer-top .footer-links:nth-child(3) {
-       margin: 0px 80px 0px 90px;
+       margin: 0px 80px 0px 80px;
    }
    
    #footer .footer-top .footer-links:nth-child(4) {
@@ -1811,6 +1817,8 @@ button:focus:not(:focus-visible) {
 
 
    
+
+
    /* Tablet View */
     @media (min-width:768px) and (max-width:1024px){
     .img-card{
@@ -2001,13 +2009,13 @@ button:focus:not(:focus-visible) {
     }
     .customer{
         position: relative;
-        height: 1000px;
+        height: 870px;
     }
     .card-carousal{
         height: 600px;
         background-image: none;
         position: absolute;
-        top: 43%;
+        top: 36%;
     }
     .company-grid{
         padding-top: 50px;
@@ -2291,7 +2299,7 @@ button:focus:not(:focus-visible) {
     /* Landscape Tablet View */
     @media (min-width:1024px) and (max-width: 1024px){
     .main-1{
-        max-width: 1004px !important;
+        max-width: 1024px !important;
     }
     .new-box {
         width: 422px;
@@ -2388,6 +2396,7 @@ button:focus:not(:focus-visible) {
     }
     .card-carousal{
         padding-top: 40px;
+        background-size: 0px;
     }
     .card-carousal{
         position: inherit;
@@ -2426,6 +2435,12 @@ button:focus:not(:focus-visible) {
     }
     }
 
+
+
+
+
+
+
     /* Mobile View, P/L */
     @media (min-width:320px) and (max-width:767px){
         p {
@@ -2439,7 +2454,8 @@ button:focus:not(:focus-visible) {
         }
         .form-control{
             height: 48px !important;
-            width: 88vw !important;
+            width: 90vw !important;
+            margin-bottom: 16px !important;
         }
         .intro-container p{
             margin: 5px 0 24px !important;
@@ -2628,6 +2644,7 @@ button:focus:not(:focus-visible) {
             line-height: 41px;
             letter-spacing: 0.0025em;
             color: #19071C;
+            width: 100% !important;
         }
     
         .analize-para > p{
@@ -2854,7 +2871,7 @@ button:focus:not(:focus-visible) {
            }
            .nav > ul {
                position: relative;
-               bottom: 1.5vh;
+               bottom: 0vh;
            }
            .form-bg{
                width: 100%;
@@ -2944,7 +2961,7 @@ button:focus:not(:focus-visible) {
             height: 915px;
             width: 100% !important;
             margin: 0px;
-        }
+            }
            .card {
                width: 100%;
                left: 0%;
@@ -3067,7 +3084,6 @@ button:focus:not(:focus-visible) {
            .card-carousal-text > h4{
                margin-bottom: 16px;
                padding-right: 0px;
-               margin-bottom: 20px;
            }
            .card-carousal-text > div > p{
                line-height: 22px !important;
@@ -3364,18 +3380,37 @@ button:focus:not(:focus-visible) {
         }
         .icon-grid>li>img{
             width: 13vw !important
-         }
-         .customer{
-             height: 950px !important
-         }
-         .card-carousal{
-             top: 48% !important
-         }
+        }
+        .customer{
+            height: 900px !important
+        }
+        .card-carousal{
+            top: 48% !important
+        }
+        .card-carousal-main{
+            height: 435px;
+            top: -25px;
+        }
+        .image{
+            width: 280px !important;
+            height: 205px;
+        }
+        .card-carousal-text>h4{
+            font-size: 20px;
+        }
+        .card-carousal-text>div>p{
+            font-size: 12px !important;
+            line-height: 18px !important;
+        }
  
     }
     
+
+
+
+
     /* 4K screen */
-    @media (min-width:2550px){
+    @media (min-width:2560px){
         #footer .footer-newsletter{
             background-repeat: repeat;
         }
@@ -3383,6 +3418,10 @@ button:focus:not(:focus-visible) {
             margin-left: 480px;
         }
     }
+
+
+
+
 
 
     /* other viewports */
@@ -3414,7 +3453,30 @@ button:focus:not(:focus-visible) {
         .container-sm,
         .container-xl,
         .container-xxl {
-            max-width: 1530px;
+            max-width: 1500px;
+        }
+        .banner{
+            width: 80%;
+        }
+        .card-carousal{
+            background-position-x: 120px;
+        }
+        .card-carousal-main{
+            left: 190px;
+        }
+        #footerEmailInput{
+            width: 75%;
+        }
+        .footer-submit{
+            width: 9vw;
+        }
+        .copyright{
+            padding-left: 190px;
+        }
+    }
+    @media (max-width: 1485px){
+        .analize-heading>h2{
+            width: 70%;
         }
     }
     @media (min-width:1440px) and (max-width:1440px){
@@ -3457,17 +3519,21 @@ button:focus:not(:focus-visible) {
         .top-bg{
             background-size: 880px;
         }
+        .main-1{
+            min-width: 1270px;
+        }
+        .form-bg{
+            position: relative;
+            left: -15px;
+        }
         .main-heading > h1{
             font-size: 47px;
         }
         .image-right{
             z-index: -10000;
         }
-        .image-container-graph{
-            display: none;
-        }
         .accordian-list-col{
-            width: 100%;
+            width: 50%;
         }
         .accordian-list{
             width: 80%;
@@ -3478,46 +3544,52 @@ button:focus:not(:focus-visible) {
         .banner{
             width: 90%;
         }
-	.banner-heading> h2{
-            width: 55%;
-	}
-	.graph-img-card{
+        .banner-heading> h2{
+                width: 55%;
+        }
+        .graph-img-card{
             width: 95%;
             position: relative;
-	    right: 80px;
-	}
+            right: 80px;
+        }
+        .card-carousal{
+            background-position-x: 12px;
+        }
         .card-carousal-main{
             left: 40px;
         }
-	.footer-container{
-            margin-left: 60px;
+	     .footer-container{
+            margin: 0px;
+            padding-left: 70px;
         }
         #footer .footer-top .footer-contact{
-            width: 380px;
+            width: 300px;
         }
         #footer .footer-top .footer-links:nth-child(2){
-            width: 250px;
+            width: 200px;
+            margin-left: 50px;
         }
         #footer .footer-top .footer-links:nth-child(3){
-            width: 250px;
+            width: 200px;
+            margin-left: 50px;
+            margin-right: 50px;
         }
         #footer .footer-top .footer-links:nth-child(4){
-            width: 100%;
-            display: flex;
+            width: 20%;
         }
-	.copyright{
-		padding-left: 125px;
+	    .copyright{
+		    padding-left: 125px;
         }
         .email-heading{
-            width: 45%;
+            width: 100%;
         }
         #footerEmailInput{
-            width: 100%;
+            width: 225px;
         }
         .footer-submit{
             width: 12vw;
         }
-	.social-media{
+	    .social-media{
             padding-right: 10px;
         }
     }
@@ -3584,7 +3656,7 @@ button:focus:not(:focus-visible) {
             width: 550px !important;
         }
         .banner{
-            width: 90%;
+            width: 92%;
         }
         .banner-heading>h2{
             width: 60%;
@@ -3599,19 +3671,26 @@ button:focus:not(:focus-visible) {
             width: 550px !important;
         }
         .footer-container{
-            margin-left: 60px;
+            padding-left: 70px;
+            margin: 0px;
+        }
+        #footer .footer-top .footer-contact{
+            width: 25% !important;
         }
         #footer .footer-top .footer-links:nth-child(2){
-            margin-left: 30px;
-            width: 18%;
+            margin-left: 25px;
+            width: 15%;
         }
         #footer .footer-top .footer-links:nth-child(3){
-            margin-left: 30px;
-            margin-right: 30px;
-            width: 18%;
+            margin-left: 25px;
+            margin-right: 25px;
+            width: 15%;
         }
         #footerEmailInput{
-            width: 70%;
+            width: 80%;
+        }
+        .footer-submit{
+            width: 11vw;
         }
         .email-heading{
             margin-top: 0px;
@@ -3666,6 +3745,7 @@ button:focus:not(:focus-visible) {
         }
         .form-bg{
             width: 100% !important;
+            right: 0px;
         }
         .dot-img{
             position: absolute !important;
@@ -3849,6 +3929,17 @@ button:focus:not(:focus-visible) {
             height: auto !important;
         }
     }
+    @media (min-width: 768px) and (max-width: 768px){
+        .icon-hide{
+            display: none !important;
+        }
+        .icon-grid>li>img{
+            width: 71px;
+        }
+        .icon-grid>li:nth-child(8){
+            margin-right: 0px;
+        }
+    }
     @media only screen and (max-width:700px){
         .card-carousal{
             height: 500px;
@@ -3890,12 +3981,6 @@ button:focus:not(:focus-visible) {
     }
     
     
-    
-    
-    
-    
-
-
    /*  Medium devices (tablets, 768px and up) */
    @media (min-width: 768px) {}
    

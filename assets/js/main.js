@@ -31,7 +31,7 @@ function imgUpload(){
 function addTabChange(){
   let lastEleForTab;
   const option = {
-    pic1: './assets/img/Group144.png',
+    pic1: './assets/img/Group144@3x.svg',
     pic2: './Images/power.png',
     pic3: './Images/Rectangle 230.png',
     pic4: './Images/WAC-Logo-Web 1.png',
